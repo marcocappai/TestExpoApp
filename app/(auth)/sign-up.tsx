@@ -14,7 +14,7 @@ export default function SignUpScreen() {
     const { data, error } = await supabase.auth.signUp({ email, password });
     if (!error && data.session) {
       dispatch(setUser({ id: data.user.id, email: data.user.email! }));
-      router.replace('/(tabs)/');
+      router.replace('/(tabs)/home');
     } else {
       console.log(error);
     }
