@@ -38,8 +38,8 @@
     "react-native-web": "~0.20.0",
     "react-native-webview": "13.13.5",
     "@supabase/supabase-js": "^2.39.3",
-    "@reduxjs/toolkit": "^1.9.5",
-    "react-redux": "^9.0.0"
+    "@reduxjs/toolkit": "^2.2.0",
+    "react-redux": "^9.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
