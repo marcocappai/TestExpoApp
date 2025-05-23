@@ -8,6 +8,7 @@ export default function Index() {
       <Text>Hello test this is working</Text>
     </View>
   );
+  
 }
 
 const styles = StyleSheet.create({
